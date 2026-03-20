@@ -1,0 +1,24 @@
+{
+  "aryan": {
+    "userId": "aryan",
+    "name": "Aryan",
+    "educationLevel": "Undergraduate",
+    "curriculum": "BTech CSE",
+    "semester": "Semester 3",
+    "subjects": ["IOT", "DS", "OS", "DBMS", "CN"],
+    "streak": 12,
+    "xp": 2340,
+    "examDate": "2026-04-15"
+  },
+  "priya": {
+    "userId": "priya",
+    "name": "Priya",
+    "educationLevel": "Class 10-12",
+    "curriculum": "CBSE",
+    "semester": "Class 12",
+    "subjects": ["Physics", "Chemistry", "Maths"],
+    "streak": 2,
+    "xp": 180,
+    "examDate": "2026-05-01"
+  }
+}

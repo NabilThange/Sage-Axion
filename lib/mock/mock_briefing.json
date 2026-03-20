@@ -1,0 +1,20 @@
+{
+  "aryan": {
+    "greeting": "Good morning, Aryan!",
+    "streak": 12,
+    "examCountdown": 26,
+    "examName": "Semester 3 Finals",
+    "weakestTopic": "Process Synchronization",
+    "weakestSubject": "OS",
+    "todayFocus": "Complete OS threading concepts and take a practice test"
+  },
+  "priya": {
+    "greeting": "Good morning, Priya!",
+    "streak": 2,
+    "examCountdown": 42,
+    "examName": "CBSE Board Exams",
+    "weakestTopic": "Organic Chemistry",
+    "weakestSubject": "Chemistry",
+    "todayFocus": "Review organic reactions and practice numerical problems"
+  }
+}

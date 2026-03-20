@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-background-elevated;
+  }
+
+  body {
+    @apply bg-background-primary text-white font-sans;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer utilities {
+  .text-hero {
+    @apply text-5xl font-medium leading-tight;
+  }
+
+  .text-h1 {
+    @apply text-4xl font-medium leading-tight;
+  }
+
+  .text-h2 {
+    @apply text-2xl font-medium;
+  }
+
+  .text-h3 {
+    @apply text-xl font-medium;
+  }
+
+  .text-body {
+    @apply text-base font-normal;
+  }
+
+  .text-caption {
+    @apply text-sm font-normal text-white/60;
+  }
+
+  .planner-widget {
+    background: #1e1e1e;
+    height: 100%;
+  }
+
+  .planner-input-box textarea {
+    scrollbar-width: none;
+  }
+
+  .planner-input-box textarea::-webkit-scrollbar {
+    display: none;
+  }
+}
